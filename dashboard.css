@@ -15,6 +15,72 @@ body {
 .container-message {
     width: 800px;
     height: 600px;
-    background-color: #fff;
+    background-color: #fff; 
+    border-radius: 10px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    height: 40px;
+}
+.nav-2 {
+    display: flex;
+    padding: 0 40px;
+    gap: 50px;
+}
+.text-notification {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.mark {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #0a6cf4e2;
+    cursor: pointer;
+}
+.all {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0a6cf4e2;
+    cursor: pointer;
+}
+.all:hover {
+    color: #346ebee2;
+    border-bottom: 4px solid #0a6cf4e2;
+    padding-bottom: 5px;
+    border-bottom-width: 4px;
+}
+.three {
+    background-color: #e5e5e5;
+    margin: 0 5px;
+    padding: 0 10px;
+    border-radius: 50px;
     
+    
+}
+
+.archive {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0a6cf4e2;
+    cursor: pointer;
+}
+.archive:hover {
+    color: #346ebee2;
+    border-bottom: 4px solid #0a6cf4e2;
+    padding-bottom: 5px;
+    border-bottom-width: 4px;
+}
+.borde {
+    border-bottom: 4px solid #0a6cf4e2;
+    border-bottom-width: 2px;
+    width: 100%;
+    
+}
+.line {
+    display: flex;
 }
