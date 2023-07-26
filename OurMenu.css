@@ -5,13 +5,13 @@
   body {
     margin: 0;
     font-family: sans-serif;
-    background: #e85e04;;
+    
   }
   
   .gallery-title {
     font-size: 18px;
     font-family: 'Lato';
-    color: #fff;
+    color: #e85e04;
   }
   .header {
     text-align: center;

@@ -47,6 +47,11 @@ body {
     color: #0a6cf4e2;
     cursor: pointer;
 }
+.all:active {
+    border-bottom: 4px solid #0a6cf4e2;
+    padding-bottom: 5px;
+    border-bottom-width: 4px;
+}
 .all:hover {
     color: #346ebee2;
     border-bottom: 4px solid #0a6cf4e2;
